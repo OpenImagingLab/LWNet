@@ -1,0 +1,110 @@
+VERS 6133
+NAME PHANTOM LENS IN CONFIG 2
+NOTE 1 Notes...
+NOTE 2  
+NOTE 3  
+UNIT MM
+ENPD 20
+PUPD 20 20
+GFAC 0 0
+GCAT schott
+RAIM 1.0E-8 0 1 1 0 0
+PUSH 0 0 0 0
+SDMA 0 1
+FTYP 0
+ROPD 2
+PICB 1
+XFLD 0
+YFLD 0
+FWGT 1
+WAVL 0.55
+WWGT 1
+PWAV 1
+POLS 1 0 1 0 0
+GLRS 1
+SURF 0
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ INFINITY
+  DIAM 0 0 0
+SURF 1
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 20
+  DIAM 12 1 0
+SURF 2
+  STOP
+  TYPE STANDARD
+  CURV -0.0482187905 1 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 5
+  GLAS BK7 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 12 1 0
+SURF 3
+  TYPE STANDARD
+  CURV -0.0371374367 1 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 20
+  DIAM 12 1 0
+SURF 4
+  TYPE STANDARD
+  CURV 0.0182651113 1 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 5
+  GLAS BK7 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 14 1 0
+SURF 5
+  TYPE STANDARD
+  CURV -0.0125000119 1 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 80
+  DIAM 14 1 0
+SURF 6
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 0
+  DIAM 0.000579901014 0 0
+CONF   1   0              0              0              0              0              0              0              0
+EFFL   0   1              0              0              0              0             70              1              0
+TRAR   0   1              0              0       0.216587              0              0    0.372163564              0
+TRAR   0   1              0              0        0.48038              0              0    0.751827538              0
+TRAR   0   1              0              0       0.707107              0              0    0.893607795              0
+TRAR   0   1              0              0        0.87706              0              0    0.751827538              0
+TRAR   0   1              0              0       0.976263              0              0    0.372163564              0
+CONF   2   0              0              0              0              0              0              0              0
+TRAR   0   1              0              0       0.216587              0              0    0.372163564              0
+TRAR   0   1              0              0        0.48038              0              0    0.751827538              0
+TRAR   0   1              0              0       0.707107              0              0    0.893607795              0
+TRAR   0   1              0              0        0.87706              0              0    0.751827538              0
+TRAR   0   1              0              0       0.976263              0              0    0.372163564              0
+MNUM 2
+THIC   0   1 1e+010 0 0
+THIC   0   2 0 0 0
+THIC   1   1 20 0 0
+THIC   1   2 -20 0 0
+THIC   2   1 5 0 0
+THIC   2   2 0 0 0
+THIC   3   1 20 0 0
+THIC   3   2 0 0 0
+GLSS   2   1        BK7
+GLSS   2   2           
+SDIA   1   1 12 0 0
+SDIA   1   2 0 0 0
+SDIA   2   1 12 0 0
+SDIA   2   2 0 0 0
+THIC   3   1 20 0 0
+THIC   3   2 20 0 0
+GLSS   3   1           
+GLSS   3   2     MIRROR
+APER   0   1 20 0 0
+APER   0   2 5 0 0

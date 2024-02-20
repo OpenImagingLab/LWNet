@@ -1,0 +1,197 @@
+VERS 6133
+NAME F/24 SCHIEFSPIEGLER W/TORIC SECONDARY
+NOTE 1 Notes...
+NOTE 2  
+NOTE 3  
+UNIT MM
+ENPD 205.2
+PUPD 1995 205.2
+GFAC 0 0
+GCAT schott
+RAIM 1.0E-8 1 1 1 0 0
+PUSH 0 0 0 0
+SDMA 0 1
+FTYP 0
+ROPD 2
+PICB 1
+XFLD 0 0 0 0.25 -0.25
+YFLD 0 0.25 -0.25 0 0
+FWGT 1 1 1 1 1
+WAVL 0.55
+WWGT 1
+PWAV 1
+POLS 1 0 1 0 0
+GLRS 1
+SURF 0
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ INFINITY
+  DIAM 0 0 0
+SURF 1
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 1995
+  DIAM 0.19 1 0
+SURF 2
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 2.43
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 3
+  STOP
+  TYPE STANDARD
+  CURV -0.000162518385 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 0
+  GLAS MIRROR 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  CONI -0.62
+  DIAM 102.600002 0 0
+SURF 4
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 2.43
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ -1900
+  DIAM 0 0 0
+SURF 5
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -10.3
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 6
+  TYPE TOROIDAL
+  CURV -0.000162518385 0 0 0
+  TCED 0 0 0
+  COAT 
+  PARM 1 -6029.34868
+  PARM 2 0
+  PARM 3 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  GLAS MIRROR 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 48.3477803 0 0
+SURF 7
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -10.3
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 1917.32089
+  DIAM 0 0 0
+SURF 8
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -6.3
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 9
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 0
+  DIAM 22.0759562 0 0
+TRAR   0   1              0              0        0.08706       0.267944              0              1              0
+TRAR   0   1              0              0       0.167067        0.51418              0              1              0
+TRAR   0   1              0              0       0.233539       0.718761              0              1              0
+TRAR   0   1              0              0       0.281092       0.865111              0              1              0
+TRAR   0   1              0              0       0.305872       0.941376              0              1              0
+TRAR   0   1              0              0       0.227926       0.165598              0              1              0
+TRAR   0   1              0              0       0.437388       0.317781              0              1              0
+TRAR   0   1              0              0       0.611414       0.444218              0              1              0
+TRAR   0   1              0              0       0.735908       0.534668              0              1              0
+TRAR   0   1              0              0       0.800782       0.581802              0              1              0
+TRAR   0   1              0              0       0.281733              0              0              1              0
+TRAR   0   1              0              0       0.540641              0              0              1              0
+TRAR   0   1              0              0        0.75575              0              0              1              0
+TRAR   0   1              0              0       0.909632              0              0              1              0
+TRAR   0   1              0              0       0.989821              0              0              1              0
+TRAR   0   1              0              0       0.227926      -0.165598              0              1              0
+TRAR   0   1              0              0       0.437388      -0.317781              0              1              0
+TRAR   0   1              0              0       0.611414      -0.444218              0              1              0
+TRAR   0   1              0              0       0.735908      -0.534668              0              1              0
+TRAR   0   1              0              0       0.800782      -0.581802              0              1              0
+TRAR   0   1              0              0        0.08706      -0.267944              0              1              0
+TRAR   0   1              0              0       0.167067       -0.51418              0              1              0
+TRAR   0   1              0              0       0.233539      -0.718761              0              1              0
+TRAR   0   1              0              0       0.281092      -0.865111              0              1              0
+TRAR   0   1              0              0       0.305872      -0.941376              0              1              0
+TRAR   0   1              0              0       -0.08706      -0.267944              0              1              0
+TRAR   0   1              0              0      -0.167067       -0.51418              0              1              0
+TRAR   0   1              0              0      -0.233539      -0.718761              0              1              0
+TRAR   0   1              0              0      -0.281092      -0.865111              0              1              0
+TRAR   0   1              0              0      -0.305872      -0.941376              0              1              0
+TRAR   0   1              0              0      -0.227926      -0.165598              0              1              0
+TRAR   0   1              0              0      -0.437388      -0.317781              0              1              0
+TRAR   0   1              0              0      -0.611414      -0.444218              0              1              0
+TRAR   0   1              0              0      -0.735908      -0.534668              0              1              0
+TRAR   0   1              0              0      -0.800782      -0.581802              0              1              0
+TRAR   0   1              0              0      -0.281733              0              0              1              0
+TRAR   0   1              0              0      -0.540641              0              0              1              0
+TRAR   0   1              0              0       -0.75575              0              0              1              0
+TRAR   0   1              0              0      -0.909632              0              0              1              0
+TRAR   0   1              0              0      -0.989821              0              0              1              0
+TRAR   0   1              0              0      -0.227926       0.165598              0              1              0
+TRAR   0   1              0              0      -0.437388       0.317781              0              1              0
+TRAR   0   1              0              0      -0.611414       0.444218              0              1              0
+TRAR   0   1              0              0      -0.735908       0.534668              0              1              0
+TRAR   0   1              0              0      -0.800782       0.581802              0              1              0
+TRAR   0   1              0              0       -0.08706       0.267944              0              1              0
+TRAR   0   1              0              0      -0.167067        0.51418              0              1              0
+TRAR   0   1              0              0      -0.233539       0.718761              0              1              0
+TRAR   0   1              0              0      -0.281092       0.865111              0              1              0
+TRAR   0   1              0              0      -0.305872       0.941376              0              1              0
+MNUM 1

@@ -1,0 +1,295 @@
+VERS 6133
+NAME MULTI-CONFIG SAGNAC INTERFEROMETER
+NOTE 1 Notes...
+NOTE 2  
+NOTE 3  
+UNIT MM
+ENPD 0.5
+PUPD 0 0.5
+GFAC 0 0
+GCAT schott
+RAIM 1.0E-8 0 1 1 0 0
+PUSH 0 0 0 0
+SDMA 0 1
+FTYP 0
+ROPD 2
+PICB 1
+XFLD 0
+YFLD 0
+FWGT 1
+WAVL 0.55
+WWGT 1
+PWAV 1
+POLS 1 0 1 0 0
+GLRS 1
+SURF 0
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ INFINITY
+  DIAM 0 0 0
+SURF 1
+  STOP
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 10
+  DIAM 0.25 0 0
+SURF 2
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 -1
+  PARM 3 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 3
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 45
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 4
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 0
+  GLAS MIRROR 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 1.76776695 0 0
+SURF 5
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 45
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ -10
+  DIAM 0 0 0
+SURF 6
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -45
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 7
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 0
+  GLAS MIRROR 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 1.76776695 0 0
+SURF 8
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -45
+  PPAR 3 6 1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 10
+  DIAM 0 0 0
+SURF 9
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -45
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 10
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 0
+  GLAS MIRROR 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 1.76776695 0 0
+SURF 11
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -45
+  PPAR 3 9 1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ -10
+  DIAM 0 0 0
+SURF 12
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -45
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 13
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 0
+  GLAS MIRROR 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 1.76776695 0 0
+SURF 14
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -45
+  PPAR 3 12 1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 10
+  DIAM 0 0 0
+SURF 15
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 45
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 16
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 0
+  GLAS MIRROR 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 1.76776695 0 0
+SURF 17
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 45
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ -10
+  DIAM 0 0 0
+SURF 18
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 0
+  DIAM 1.25 0 0
+SURF 19
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 0
+  DIAM 1.25 0 0
+CONF   1   0              0              0              0              0              0              0              0
+OPTH  19   1              0              0              0              0              0              0              0
+CONF   2   0              0              0              0              0              0              0              0
+OPTH  19   1              0              0              0              0              0              0              0
+DIFF   2   4              0              0              0              0              0              0              0
+MNUM 2
+GLSS   4   1     MIRROR
+GLSS   4   2           
+PAR3   3   1 45 0 0
+PAR3   3   2 45 0 0
+PAR3   5   1 45 0 0
+PAR3   5   2 -45 0 0
+THIC   5   1 -10 0 0
+THIC   5   2 10 0 0
+PAR3   6   1 -45 0 0
+PAR3   6   2 45 0 0
+THIC   8   1 10 0 0
+THIC   8   2 -10 0 0
+PAR3   9   1 -45 0 0
+PAR3   9   2 45 0 0
+THIC  11   1 -10 0 0
+THIC  11   2 10 0 0
+PAR3  12   1 -45 0 0
+PAR3  12   2 45 0 0
+THIC  14   1 10 0 0
+THIC  14   2 -10 0 0
+GLSS  16   1     MIRROR
+GLSS  16   2           
+PAR3  15   1 45 0 0
+PAR3  15   2 -45 0 0
+PAR3  17   1 45 0 0
+PAR3  17   2 45 0 0
+THIC  17   1 -10 0 0
+THIC  17   2 -10 0 0

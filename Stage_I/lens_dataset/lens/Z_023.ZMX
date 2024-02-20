@@ -1,0 +1,1068 @@
+VERS 6133
+NAME BEAM STRETCHER W/ACHROMAT, 4 PASSES
+NOTE 1 Notes...
+NOTE 2  
+NOTE 3  
+UNIT MM
+ENPD 5
+PUPD 0 5
+GFAC 0 0
+GCAT schott
+RAIM 1.0E-8 0 1 1 0 0
+PUSH 0 0 0 0
+SDMA 0 1
+FTYP 0
+ROPD 2
+PICB 1
+XFLD 0
+YFLD 0
+FWGT 1
+WAVL 0.78 0.79 0.8
+WWGT 1 1 1
+PWAV 3
+POLS 1 0 1 0 0
+GLRS 1
+SURF 0
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ INFINITY
+  DIAM 0 0 0
+SURF 1
+  STOP
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 0
+  DIAM 2.5 0 0
+SURF 2
+  COMM M1
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 310
+  DIAM 40 1 0
+SURF 3
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 55
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 4
+  COMM GRATING
+  TYPE DGRATING
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  PARM 1 1.8
+  PARM 2 -1
+  PARM 3 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  GLAS MIRROR 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 40 1 0
+SURF 5
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -55
+  PPAR 3 3 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 6
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 17.925859093
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ -270
+  DIAM 0 0 0
+SURF 7
+  COMM ACH
+  TYPE STANDARD
+  CURV -0.00080683521316 1 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ -6.5
+  GLAS BK7 0 0 0.000000 0.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 35 1 0
+SURF 8
+  TYPE STANDARD
+  CURV 0.0063402892797 1 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ -6
+  GLAS SF5 0 0 0.000000 0.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 35 1 0
+SURF 9
+  TYPE STANDARD
+  CURV 0.003325171304 1 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ -600
+  DIAM 35 1 0
+SURF 10
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 11
+  COMM M2
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 0
+  GLAS MIRROR 0 4 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 40 1 8
+SURF 12
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 0
+  PPAR 3 10 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 600
+  PZUP 9 -1 0
+  DIAM 0 0 0
+SURF 13
+  COMM ACH-
+  TYPE STANDARD
+  CURV 0.003325171304 4 9 1
+  TCED 0 0 0
+  COAT 
+  DISZ 6
+  GLAS SF5 2 8 0.000000 0.000000 0.000000 0 0 0 0.00000000 0.00000000
+  PZUP 8 -1 0
+  DIAM 35 2 9
+SURF 14
+  TYPE STANDARD
+  CURV 0.0063402892797 4 8 1
+  TCED 0 0 0
+  COAT 
+  DISZ 6.5
+  GLAS BK7 2 7 0.000000 0.000000 0.000000 0 0 0 0.00000000 0.00000000
+  PZUP 7 -1 0
+  DIAM 35 2 8
+SURF 15
+  TYPE STANDARD
+  CURV -0.00080683521316 4 7 1
+  TCED 0 0 0
+  COAT 
+  DISZ 270
+  PZUP 6 -1 0
+  DIAM 35 2 7
+SURF 16
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -17.925859093
+  PPAR 3 6 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 17
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 55
+  PPAR 3 5 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 18
+  COMM GRATING -
+  TYPE DGRATING
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  PARM 1 1.8
+  PPAR 1 4 1 0
+  PARM 2 -1
+  PPAR 2 4 1 0
+  PARM 3 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  GLAS MIRROR 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 40 2 4
+SURF 19
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -55
+  PPAR 3 3 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ -310
+  PZUP 2 -1 0
+  DIAM 0 0 0
+SURF 20
+  COMM M1
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 310
+  GLAS MIRROR 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  PZUP 2 1 0
+  DIAM 40 2 2
+SURF 21
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 55
+  PPAR 3 3 1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 22
+  COMM GRATING
+  TYPE DGRATING
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  PARM 1 1.8
+  PPAR 1 4 1 0
+  PARM 2 -1
+  PPAR 2 4 1 0
+  PARM 3 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  GLAS MIRROR 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 40 2 4
+SURF 23
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -55
+  PPAR 3 3 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 24
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 17.925859093
+  PPAR 3 6 1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ -270
+  PZUP 6 1 0
+  DIAM 0 0 0
+SURF 25
+  COMM ACH
+  TYPE STANDARD
+  CURV -0.00080683521316 4 7 1
+  TCED 0 0 0
+  COAT 
+  DISZ -6.5
+  GLAS BK7 2 7 0.000000 0.000000 0.000000 0 0 0 0.00000000 0.00000000
+  PZUP 7 1 0
+  DIAM 35 2 7
+SURF 26
+  TYPE STANDARD
+  CURV 0.0063402892797 4 8 1
+  TCED 0 0 0
+  COAT 
+  DISZ -6
+  GLAS SF5 2 8 0.000000 0.000000 0.000000 0 0 0 0.00000000 0.00000000
+  PZUP 8 1 0
+  DIAM 35 2 8
+SURF 27
+  TYPE STANDARD
+  CURV 0.003325171304 4 9 1
+  TCED 0 0 0
+  COAT 
+  DISZ -600
+  PZUP 9 1 0
+  DIAM 35 2 9
+SURF 28
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 0
+  PPAR 3 10 1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 29
+  COMM M2
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 0
+  GLAS MIRROR 0 4 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 40 2 11
+SURF 30
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 0
+  PPAR 3 10 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 600
+  PZUP 9 -1 0
+  DIAM 0 0 0
+SURF 31
+  COMM ACH-
+  TYPE STANDARD
+  CURV 0.003325171304 4 9 1
+  TCED 0 0 0
+  COAT 
+  DISZ 6
+  GLAS SF5 2 8 0.000000 0.000000 0.000000 0 0 0 0.00000000 0.00000000
+  PZUP 8 -1 0
+  DIAM 35 2 9
+SURF 32
+  TYPE STANDARD
+  CURV 0.0063402892797 4 8 1
+  TCED 0 0 0
+  COAT 
+  DISZ 6.5
+  GLAS BK7 2 7 0.000000 0.000000 0.000000 0 0 0 0.00000000 0.00000000
+  PZUP 7 -1 0
+  DIAM 35 2 8
+SURF 33
+  TYPE STANDARD
+  CURV -0.00080683521316 4 7 1
+  TCED 0 0 0
+  COAT 
+  DISZ 270
+  PZUP 6 -1 0
+  DIAM 35 2 7
+SURF 34
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -17.925859093
+  PPAR 3 6 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 35
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 55
+  PPAR 3 5 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 36
+  COMM GRATING -
+  TYPE DGRATING
+  CURV 0 4 4 1
+  TCED 0 0 0
+  COAT 
+  PARM 1 1.8
+  PPAR 1 4 1 0
+  PARM 2 -1
+  PPAR 2 4 1 0
+  PARM 3 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  GLAS MIRROR 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 40 2 4
+SURF 37
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -55
+  PPAR 3 3 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ -310
+  PZUP 2 -1 0
+  DIAM 0 0 0
+SURF 38
+  COMM M1
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 310
+  GLAS MIRROR 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  PZUP 2 1 0
+  DIAM 40 2 2
+SURF 39
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 55
+  PPAR 3 3 1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 40
+  COMM GRATING
+  TYPE DGRATING
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  PARM 1 1.8
+  PPAR 1 4 1 0
+  PARM 2 -1
+  PPAR 2 4 1 0
+  PARM 3 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  GLAS MIRROR 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 40 2 4
+SURF 41
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -55
+  PPAR 3 3 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 42
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 17.925859093
+  PPAR 3 6 1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ -270
+  PZUP 6 1 0
+  DIAM 0 0 0
+SURF 43
+  COMM ACH
+  TYPE STANDARD
+  CURV -0.00080683521316 4 7 1
+  TCED 0 0 0
+  COAT 
+  DISZ -6.5
+  GLAS BK7 2 7 0.000000 0.000000 0.000000 0 0 0 0.00000000 0.00000000
+  PZUP 7 1 0
+  DIAM 35 2 7
+SURF 44
+  TYPE STANDARD
+  CURV 0.0063402892797 4 8 1
+  TCED 0 0 0
+  COAT 
+  DISZ -6
+  GLAS SF5 2 8 0.000000 0.000000 0.000000 0 0 0 0.00000000 0.00000000
+  PZUP 8 1 0
+  DIAM 35 2 8
+SURF 45
+  TYPE STANDARD
+  CURV 0.003325171304 4 9 1
+  TCED 0 0 0
+  COAT 
+  DISZ -600
+  PZUP 9 1 0
+  DIAM 35 2 9
+SURF 46
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 0
+  PPAR 3 10 1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 47
+  COMM M2
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 0
+  GLAS MIRROR 0 4 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 40 2 11
+SURF 48
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 0
+  PPAR 3 10 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 600
+  PZUP 9 -1 0
+  DIAM 0 0 0
+SURF 49
+  COMM ACH-
+  TYPE STANDARD
+  CURV 0.003325171304 4 9 1
+  TCED 0 0 0
+  COAT 
+  DISZ 6
+  GLAS SF5 2 8 0.000000 0.000000 0.000000 0 0 0 0.00000000 0.00000000
+  PZUP 8 -1 0
+  DIAM 35 2 9
+SURF 50
+  TYPE STANDARD
+  CURV 0.0063402892797 4 8 1
+  TCED 0 0 0
+  COAT 
+  DISZ 6.5
+  GLAS BK7 2 7 0.000000 0.000000 0.000000 0 0 0 0.00000000 0.00000000
+  PZUP 7 -1 0
+  DIAM 35 2 8
+SURF 51
+  TYPE STANDARD
+  CURV -0.00080683521316 4 7 1
+  TCED 0 0 0
+  COAT 
+  DISZ 270
+  PZUP 6 -1 0
+  DIAM 35 2 7
+SURF 52
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -17.925859093
+  PPAR 3 6 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 53
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 55
+  PPAR 3 5 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 54
+  COMM GRATING -
+  TYPE DGRATING
+  CURV 0 4 4 1
+  TCED 0 0 0
+  COAT 
+  PARM 1 1.8
+  PPAR 1 4 1 0
+  PARM 2 -1
+  PPAR 2 4 1 0
+  PARM 3 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  GLAS MIRROR 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 40 2 4
+SURF 55
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -55
+  PPAR 3 3 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ -310
+  PZUP 2 -1 0
+  DIAM 0 0 0
+SURF 56
+  COMM M1
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 310
+  GLAS MIRROR 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  PZUP 2 1 0
+  DIAM 40 2 2
+SURF 57
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 55
+  PPAR 3 3 1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 58
+  COMM GRATING
+  TYPE DGRATING
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  PARM 1 1.8
+  PPAR 1 4 1 0
+  PARM 2 -1
+  PPAR 2 4 1 0
+  PARM 3 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  GLAS MIRROR 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 40 2 4
+SURF 59
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -55
+  PPAR 3 3 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 60
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 17.925859093
+  PPAR 3 6 1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ -270
+  PZUP 6 1 0
+  DIAM 0 0 0
+SURF 61
+  COMM ACH
+  TYPE STANDARD
+  CURV -0.00080683521316 4 7 1
+  TCED 0 0 0
+  COAT 
+  DISZ -6.5
+  GLAS BK7 2 7 0.000000 0.000000 0.000000 0 0 0 0.00000000 0.00000000
+  PZUP 7 1 0
+  DIAM 35 2 7
+SURF 62
+  TYPE STANDARD
+  CURV 0.0063402892797 4 8 1
+  TCED 0 0 0
+  COAT 
+  DISZ -6
+  GLAS SF5 2 8 0.000000 0.000000 0.000000 0 0 0 0.00000000 0.00000000
+  PZUP 8 1 0
+  DIAM 35 2 8
+SURF 63
+  TYPE STANDARD
+  CURV 0.003325171304 4 9 1
+  TCED 0 0 0
+  COAT 
+  DISZ -600
+  PZUP 9 1 0
+  DIAM 35 2 9
+SURF 64
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 0
+  PPAR 3 10 1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 65
+  COMM M2
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 0
+  GLAS MIRROR 0 4 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 40 2 11
+SURF 66
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 0
+  PPAR 3 10 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 600
+  PZUP 9 -1 0
+  DIAM 0 0 0
+SURF 67
+  COMM ACH-
+  TYPE STANDARD
+  CURV 0.003325171304 4 9 1
+  TCED 0 0 0
+  COAT 
+  DISZ 6
+  GLAS SF5 2 8 0.000000 0.000000 0.000000 0 0 0 0.00000000 0.00000000
+  PZUP 8 -1 0
+  DIAM 35 2 9
+SURF 68
+  TYPE STANDARD
+  CURV 0.0063402892797 4 8 1
+  TCED 0 0 0
+  COAT 
+  DISZ 6.5
+  GLAS BK7 2 7 0.000000 0.000000 0.000000 0 0 0 0.00000000 0.00000000
+  PZUP 7 -1 0
+  DIAM 35 2 8
+SURF 69
+  TYPE STANDARD
+  CURV -0.00080683521316 4 7 1
+  TCED 0 0 0
+  COAT 
+  DISZ 270
+  PZUP 6 -1 0
+  DIAM 35 2 7
+SURF 70
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -17.925859093
+  PPAR 3 6 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 71
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 55
+  PPAR 3 5 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  DIAM 0 0 0
+SURF 72
+  COMM GRATING -
+  TYPE DGRATING
+  CURV 0 4 4 1
+  TCED 0 0 0
+  COAT 
+  PARM 1 1.8
+  PPAR 1 4 1 0
+  PARM 2 -1
+  PPAR 2 4 1 0
+  PARM 3 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ 0
+  GLAS MIRROR 0 0 1.500000 40.000000 0.000000 0 0 0 0.00000000 0.00000000
+  DIAM 40 2 4
+SURF 73
+  TYPE COORDBRK
+  CURV 0.0 0 0.0 0.0
+  TCED 0 0 0
+  COAT 
+  PARM 1 0
+  PARM 2 0
+  PARM 3 -55
+  PPAR 3 3 -1 0
+  PARM 4 0
+  PARM 5 0
+  PARM 6 0
+  PARM 7 0
+  PARM 8 0
+  DISZ -310
+  PZUP 2 -1 0
+  DIAM 0 0 0
+SURF 74
+  TYPE STANDARD
+  CURV 0 0 0 0
+  TCED 0 0 0
+  COAT 
+  DISZ 0
+  DIAM 40 2 2
+EFLY  61  63              0              0              0              0            600              1              0
+CTVA   6   2              0              0              0              0              0              0              0
+CTVA   9   2              0              0              0              0              0              0              0
+CTGT   6   2              0              0              0              0           -290              1              0
+CTGT   9   2              0              0              0              0           -610              1              0
+CTLT   6   2              0              0              0              0           -250              1              0
+CTLT   9   2              0              0              0              0           -580              1              0
+PRIM   0   1              0              0              0              0              0              0              0
+TRAR   0   1              0              0       0.167855       0.290734              0   0.0484813675              0
+TRAR   0   1              0              0       0.353553       0.612372              0   0.0775701925              0
+TRAR   0   1              0              0       0.470983       0.815766              0   0.0484813675              0
+TRAR   0   1              0              0       0.335711              0              0   0.0484813675              0
+TRAR   0   1              0              0       0.707107              0              0   0.0775701925              0
+TRAR   0   1              0              0       0.941965              0              0   0.0484813675              0
+TRAR   0   1              0              0       0.167855      -0.290734              0   0.0484813675              0
+TRAR   0   1              0              0       0.353553      -0.612372              0   0.0775701925              0
+TRAR   0   1              0              0       0.470983      -0.815766              0   0.0484813675              0
+TRAR   0   1              0              0      -0.167855      -0.290734              0   0.0484813675              0
+TRAR   0   1              0              0      -0.353553      -0.612372              0   0.0775701925              0
+TRAR   0   1              0              0      -0.470983      -0.815766              0   0.0484813675              0
+TRAR   0   1              0              0      -0.335711              0              0   0.0484813675              0
+TRAR   0   1              0              0      -0.707107              0              0   0.0775701925              0
+TRAR   0   1              0              0      -0.941965              0              0   0.0484813675              0
+TRAR   0   1              0              0      -0.167855       0.290734              0   0.0484813675              0
+TRAR   0   1              0              0      -0.353553       0.612372              0   0.0775701925              0
+TRAR   0   1              0              0      -0.470983       0.815766              0   0.0484813675              0
+PRIM   0   2              0              0              0              0              0              0              0
+TRAR   0   2              0              0       0.167855       0.290734              0   0.0484813675              0
+TRAR   0   2              0              0       0.353553       0.612372              0   0.0775701925              0
+TRAR   0   2              0              0       0.470983       0.815766              0   0.0484813675              0
+TRAR   0   2              0              0       0.335711              0              0   0.0484813675              0
+TRAR   0   2              0              0       0.707107              0              0   0.0775701925              0
+TRAR   0   2              0              0       0.941965              0              0   0.0484813675              0
+TRAR   0   2              0              0       0.167855      -0.290734              0   0.0484813675              0
+TRAR   0   2              0              0       0.353553      -0.612372              0   0.0775701925              0
+TRAR   0   2              0              0       0.470983      -0.815766              0   0.0484813675              0
+TRAR   0   2              0              0      -0.167855      -0.290734              0   0.0484813675              0
+TRAR   0   2              0              0      -0.353553      -0.612372              0   0.0775701925              0
+TRAR   0   2              0              0      -0.470983      -0.815766              0   0.0484813675              0
+TRAR   0   2              0              0      -0.335711              0              0   0.0484813675              0
+TRAR   0   2              0              0      -0.707107              0              0   0.0775701925              0
+TRAR   0   2              0              0      -0.941965              0              0   0.0484813675              0
+TRAR   0   2              0              0      -0.167855       0.290734              0   0.0484813675              0
+TRAR   0   2              0              0      -0.353553       0.612372              0   0.0775701925              0
+TRAR   0   2              0              0      -0.470983       0.815766              0   0.0484813675              0
+PRIM   0   3              0              0              0              0              0              0              0
+TRAR   0   3              0              0       0.167855       0.290734              0   0.0484813675              0
+TRAR   0   3              0              0       0.353553       0.612372              0   0.0775701925              0
+TRAR   0   3              0              0       0.470983       0.815766              0   0.0484813675              0
+TRAR   0   3              0              0       0.335711              0              0   0.0484813675              0
+TRAR   0   3              0              0       0.707107              0              0   0.0775701925              0
+TRAR   0   3              0              0       0.941965              0              0   0.0484813675              0
+TRAR   0   3              0              0       0.167855      -0.290734              0   0.0484813675              0
+TRAR   0   3              0              0       0.353553      -0.612372              0   0.0775701925              0
+TRAR   0   3              0              0       0.470983      -0.815766              0   0.0484813675              0
+TRAR   0   3              0              0      -0.167855      -0.290734              0   0.0484813675              0
+TRAR   0   3              0              0      -0.353553      -0.612372              0   0.0775701925              0
+TRAR   0   3              0              0      -0.470983      -0.815766              0   0.0484813675              0
+TRAR   0   3              0              0      -0.335711              0              0   0.0484813675              0
+TRAR   0   3              0              0      -0.707107              0              0   0.0775701925              0
+TRAR   0   3              0              0      -0.941965              0              0   0.0484813675              0
+TRAR   0   3              0              0      -0.167855       0.290734              0   0.0484813675              0
+TRAR   0   3              0              0      -0.353553       0.612372              0   0.0775701925              0
+TRAR   0   3              0              0      -0.470983       0.815766              0   0.0484813675              0
+MNUM 1
