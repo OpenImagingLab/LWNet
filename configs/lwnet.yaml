@@ -1,0 +1,11 @@
+filename: 'WFA_65251'
+Sheet: 'Sheet7'
+epochs_I: 400
+lr_I: 0.2
+gamma: 0.9
+epochs_II: 1001
+lr_II: 5e-3
+T_max: 100
+seed: 0
+inputpath: 'data'
+savepath: 'results'
