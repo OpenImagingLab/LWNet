@@ -2,7 +2,6 @@
 ### [Paper](https//)
 Liqun Chen, Yuyao Hu, Jiewen Nie, Tianfan Xue and Jinwei Gu
 
-
 <p align="left" width="100%">
     <img src="demo.gif"  width="90%" >
 </p>
@@ -42,10 +41,10 @@ To test LWNet and reproduce some results shown in the paper:
 - Run `main_lwnet.py`. The outputs will be saved in `results` folders
 - Modify parameters in `configs/lwnet.yaml`, run `main_lwnet.py`. The outputs will be saved in `results` folders
 
-# Contact
+## Contact
 For any question, you can contact chenliqun@pjlab.org.cn
 
-# Citation
+## Citation
 If you use this codebase or any part of it for a publication, please cite:
 ```
 @article{chen2024learning,
