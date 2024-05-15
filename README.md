@@ -2,6 +2,11 @@
 ### [Paper](https//)
 Liqun Chen, Yuyao Hu, Jiewen Nie, Tianfan Xue and Jinwei Gu
 
+
+<p align="left" width="100%">
+    <img src="demo.gif"  width="90%" >
+</p>
+
 ## Environment requirements
 The codes was tested on Windows 10, with Python and PyTorch. Packages required to reproduce the results can be found in `requirements.txt`. The following software / hardware is tested and recommended:
 - numpy  
@@ -34,7 +39,6 @@ LWNet
 
 ## Test
 To test LWNet and reproduce some results shown in the paper:
-- Open `demo.gif`. The animation showcases the optimization process, from the captured PSF to the recovered wavefront.
 - Run `main_lwnet.py`. The outputs will be saved in `results` folders
 - Modify parameters in `configs/lwnet.yaml`, run `main_lwnet.py`. The outputs will be saved in `results` folders
 
