@@ -1,12 +1,13 @@
 # Learning-Based Lens Wavefront Aberration Recovery
 ### [Paper](https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-11-18931)
+```
 Liqun Chen, Yuyao Hu, Jiewen Nie, Tianfan Xue and Jinwei Gu
-
+```
 <p align="left" width="100%">
     <img src="demo.gif"  width="90%" >
 </p>
 
-## Environment requirements
+## Environment Requirements
 The codes was tested on Windows 10, with Python and PyTorch. Packages required to reproduce the results can be found in `requirements.txt`. The following software / hardware is tested and recommended:
 - numpy  
 - tqdm
@@ -16,7 +17,7 @@ The codes was tested on Windows 10, with Python and PyTorch. Packages required t
 - torchvision >= 0.15
 - pandas >= 1.4
 
-## File structure
+## File Structure
 This repository contains codes for LWNet.
 ```
 LWNet
