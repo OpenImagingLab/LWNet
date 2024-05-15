@@ -32,7 +32,7 @@ LWNet
 
 `/data` include input data (GT). 
 
-`/models` include models for Stage_I and stage_II. 
+`/models` include models for Stage_I and Stage_II. 
 
 `/results` store the optimization results.
 
