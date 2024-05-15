@@ -1,13 +1,11 @@
 # --coding:utf-8--
 from model.stage_II.StageII_Net import *
 from tqdm import tqdm
-from utils_plot import *
-from pretreatment import *
+from utils.utils_plot import *
+from utils.pretreatment import *
 import yaml
 
 def config(source):
-    """ Config file for training.
-    """
     # Config file
     current_path = os.getcwd()
     with open(source) as f:
@@ -15,6 +13,7 @@ def config(source):
     args['in_path']= os.path.join(current_path,args['inputpath'], args['filename'] + '.xlsx')
     args['zerpath'] = os.path.join(current_path,args['inputpath'], 'Lens_Zernike_Lib.xlsx')
     args['savepath']= os.path.join(current_path,args['savepath'])
+    args['modelpath'] = os.path.abspath(args['modelpath'])
 
     list= ['epochs_I','epochs_II','T_max','seed']
     for key in list:
@@ -53,7 +52,7 @@ if __name__ == "__main__":
     wf_arr.append(wf_gt)
     net = StageII()
     loss_MSE, loss_L1 = nn.MSELoss(), nn.L1Loss()
-    zer_init, direct_out = precondition(GT)
+    zer_init, direct_out = precondition(GT,args['modelpath'])
     zer_init = sample(GT, zer_init, num=50)
     # zer_init,direct_out = StageI(GT)
     StageI_error = np.mean(abs(wf_gt - direct_out))
@@ -72,8 +71,8 @@ if __name__ == "__main__":
 
     'optimize the net by PSF identical loss'
     optimizer = torch.optim.AdamW(
-        [{'params': net.fc0.parameters(), 'lr': args['lr_II']}, {'params': net.fc1.parameters(), 'lr': args['lr_II']},{'params': net.linears.parameters(), 'lr': args['lr_II']},{'params': net.res.parameters(), 'lr': 0.0001*args['lr_II']}])
-
+        [{'params': net.fc0.parameters(), 'lr': args['lr_II']}, {'params': net.fc1.parameters(), 'lr': args['lr_II']},
+         {'params': net.linears.parameters(), 'lr': args['lr_II']},{'params': net.res.parameters(), 'lr': 0.01*args['lr_II']}])
 
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer=optimizer, T_max=args['T_max'])
     min_loss = float('inf')

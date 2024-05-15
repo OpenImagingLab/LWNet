@@ -18,14 +18,12 @@ This repository contains codes for LWNet.
 LWNet
 |   README.md
 |   requirements.txt
-|
+|   main_lwnet.py
+|   statistic_zer_rule.py
+|   demo.gif
 |---data  
 |---model
 |---results  
-|   main_lwnet.py
-|   statistic_zer_rule.py
-|   ...
-| 
 ```
 
 `/data` include input data (GT). 
@@ -36,5 +34,24 @@ LWNet
 
 ## Test
 To test LWNet and reproduce some results shown in the paper:
+- Open `demo.gif`. The animation showcases the optimization process, from the captured PSF to the recovered wavefront.
 - Run `main_lwnet.py`. The outputs will be saved in `results` folders
 - Modify parameters in `configs/lwnet.yaml`, run `main_lwnet.py`. The outputs will be saved in `results` folders
+
+# Contact
+For any question, you can contact chenliqun@pjlab.org.cn
+
+# Citation
+If you use this codebase or any part of it for a publication, please cite:
+```
+@article{chen2024learning,
+  title={Learning-based lens wavefront aberration recovery},
+  author={Chen, Liqun and Hu, Yuyao and Nie, Jiewen and Xue, Tianfan and Gu, Jinwei},
+  journal={Optics Express},
+  volume={32},
+  number={11},
+  pages={18931--18943},
+  year={2024},
+  publisher={Optica Publishing Group}
+}
+```

@@ -9,3 +9,4 @@ T_max: 100
 seed: 0
 inputpath: 'data'
 savepath: 'results'
+modelpath: './model/stage_I/model_0601_dict_0.1TV.pth'

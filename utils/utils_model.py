@@ -1,15 +1,14 @@
 # --coding:utf-8--
-import sys
 # sys.path.append("..")
 from model.stage_I.UNet import *
-from utils_optics import *
+from utils.utils_optics import *
 
 def StageI(gt):
     if isinstance(gt, np.ndarray):
         gt = torch.from_numpy(gt)
     gt = gt.unsqueeze(dim=0).unsqueeze(dim=0)
     model = UNet()
-    model_path = '.\model\stage_I\model_0601_dict_0.1TV.pth'
+    model_path = '../model/stage_I/model_0601_dict_0.1TV.pth'
     A = torch.load(model_path, map_location=torch.device('cpu'))
     model.load_state_dict(A)
     matrix, mask, A, _ = fitting_prepare(1)

@@ -1,22 +1,18 @@
 # --coding:utf-8--
-import numpy as np
-import torch
 from model.stage_I.UNet import *
-from utils_optics import *
+from utils.utils_optics import *
 from torch.nn import functional as F
 # from torchvision.transforms import CenterCrop, Resize
-import matplotlib.pyplot as plt
 
 
-
-def precondition(gt):
+def precondition(gt,path):
+    "Shift the input PSF, choose the smoothest output as the right prediction result"
     if isinstance(gt,np.ndarray):
         gt = torch.from_numpy(gt)
     if len(gt.shape) == 2:
         gt = gt.unsqueeze(0).unsqueeze(0)
     model = UNet()
-    model_path = '.\model\stage_I\model_0601_dict_0.1TV.pth'
-    A = torch.load(model_path, map_location=torch.device('cpu'))
+    A = torch.load(path, map_location=torch.device('cpu'))
     model.load_state_dict(A)
     matrix, mask, A, _ = fitting_prepare(1)
     zer_co_arr = []
@@ -42,6 +38,7 @@ def precondition(gt):
 
 
 def sample(gt,initial, num=50):
+    "Sampling to obtain initial values closer to the ground truth (GT)"
     gt = gt.squeeze()
     if isinstance(initial,torch.Tensor):
         initial = initial.detach().numpy()
